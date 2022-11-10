@@ -1,0 +1,9 @@
+.header__title {
+  margin: 0;
+  max-width: 720px;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  color: #fff;
+}
