@@ -8,10 +8,16 @@
   height: 54px;
   border: none;
   border-radius: 30px;
+  transition: box-shadow .2s ease-in-out;
 }
 
 .form__input::placeholder {
   font-size: 20px;
   text-align: right;
+}
 
+.form__input:focus-visible {
+  -webkit-box-shadow: inset 0px 0px 11px -1px #000000;
+  box-shadow: inset 0px 0px 11px -1px #000000;
+  outline: #2F2F2F;
 }

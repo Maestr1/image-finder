@@ -8,4 +8,10 @@
   border: none;
   border-radius: 50px;
   background: url("../../../images/Arrow_Circle_Right.svg") no-repeat center center;
+  opacity: .5;
+  transition: opacity .3s ease-in-out;
+}
+
+.form__btn:hover {
+  opacity: 1;
 }
